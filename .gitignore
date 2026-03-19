@@ -1,0 +1,44 @@
+# -------------------------------
+# .NET Core / Visual Studio
+# -------------------------------
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.vscode/
+*.DS_Store
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+# Uncomment if you have project.lock.json files
+# project.lock.json
+# Add if using Rider IDE
+.idea/
+
+# -------------------------------
+# Angular / Node.js
+# -------------------------------
+node_modules/
+dist/
+tmp/
+out-tsc/
+.angular/
+.angular-cache/
+coverage/
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+*.local.ts
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
