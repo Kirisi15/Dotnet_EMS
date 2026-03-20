@@ -22,4 +22,14 @@ namespace Employee.Api.Model
         public DateTime createdDate { get; set; }
         public DateTime modifiedDate { get; set; }
     }
+
+    public class LoginDto
+    {
+        [Required]
+        [EmailAddress]
+        public string email { get; set; } = string.Empty;
+
+        [Required]
+        public string contactNo { get; set; } = string.Empty;
+    }
 }
